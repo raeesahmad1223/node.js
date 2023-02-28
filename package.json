@@ -1,0 +1,34 @@
+{
+  "name": "recipie-website",
+  "version": "1.0.0",
+  "description": "This is website where you can add your recipie and give advantage to other people.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest watchAll --verbose",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/ranaraees1223/"
+  },
+  "keywords": [
+    "recipie"
+  ],
+  "author": "Rana Raees Ahmad Khan",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
